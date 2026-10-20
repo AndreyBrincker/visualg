@@ -1,0 +1,17 @@
+algoritmo "FunçãoAuxiliarCaractere"
+
+var
+  texto: caracter
+
+inicio 
+
+  texto <- "Andrey"
+
+  escreval("Texto original: ", texto)
+  escreval("Cópia de parte do texto: ", copia(texto, 1, 3))
+  escreval("Qauntidade de caracteres: " compr(texto))
+  escreval("Texto em maiúsculas: ", maiusc(texto))
+  escreval("Texto em minúsculas: ", minusc(texto))
+  escreval("Posição de 're': ", pos("re", texto))
+
+fimalgoritmo
